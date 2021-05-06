@@ -1,38 +1,47 @@
-.line--hr{
-	font-weight: 100%;
+body{
+	background-color: white; 
 }
 
-.audio{
-	margin-left: 43%;
-	margin-bottom: 25px;
-}
 
-.home--page{
+.link {
+	font-size: 1.25rem;
+	color: black;
 	margin-top: 1%;
 	margin-left: 4%;
 }
 
-.pog{
-	margin-top: 20px;
-	margin-bottom: 10px;
-	width: 100%;
-	border: 4px solid black;
-	padding: 4px;
-	padding-right: 30px;
+.hr_header{
+	margin: 1rem 0;
+	color: inherit;
+	background-color: currentColor;
+	opacity: .25;
 }
 
-.monke{
-	margin-top: 20px;
-	width: 100%;
-	border: 4px solid black;
-	padding: 4px;
-	padding-right: 30px;
+.hr_header, ::after, ::before {
+    box-sizing: border-box;
 }
 
-.champ{
-	width: 100%;
-	border: 4px solid black;
-	padding: 4px;
-	padding-right: 30px;
-	border-top: 2px;
+.htwo{
+	font-size: 2rem;
+	margin-left: 45%;
+	margin-bottom: 25px;
+}
+
+
+.image{
+	margin-left: 45%;
+}
+
+
+.item{
+	margin: 15px;
+	color: black;
+}
+
+.test{
+	colot:black;
+}
+
+.container{
+	display: flex;
 }
